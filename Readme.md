@@ -1,14 +1,17 @@
-Phishing Website Detection using Machine Learning
+***Phishing Website Detection using Machine Learning***
+
 This project uses machine learning to detect phishing websites in real-time by analyzing their URLs. It provides a proactive solution to help users and cybersecurity professionals identify threats before any data is compromised. 🎣
 
-📜 Description
+***📜 Description***
+
 Phishing is a deceptive technique that manipulates users into divulging confidential information by mimicking trusted websites. With the rapid expansion of internet usage, phishing attacks have become more sophisticated and harder to detect using conventional techniques like blacklists or manually curated rules.
 
 This project focuses on developing a machine learning-based system that can detect phishing websites by analyzing URLs. The system extracts several key features from the URL—such as the presence of IP addresses, suspicious characters, subdomain usage, and SSL certificate details—which are then used to train a classification model capable of predicting the legitimacy of the website.
 
 The proposed system is implemented using Python, and the trained model is deployed through a web-based interface, allowing users to input URLs and receive immediate feedback on their safety.
 
-✨ Key Features
+***✨ Key Features***
+
 URL Feature Extraction: Analyzes various components of a URL, including:
 
 Presence of IP addresses
@@ -25,7 +28,7 @@ Real-Time Detection: Provides immediate feedback on the safety of a URL through 
 
 Proactive Security: Helps identify threats before users can be harmed, enhancing overall digital security.
 
-**Here are some examples**
+***Here are some examples***
 
 **PHISHING LINKS** 
 
